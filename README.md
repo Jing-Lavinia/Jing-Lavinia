@@ -1,5 +1,3 @@
-<!-- Optional manual hero slot; see assets/README.md before adding it. -->
-
 <div align="center">
 
 # Jing Li
@@ -8,14 +6,9 @@
 
 Systematic Alpha · Relative Value · Research Engineering
 
-I build evidence-first quantitative research with causal timestamps, realistic
-frictions, explicit portfolio construction, and honest out-of-sample
-evaluation.
+I turn market questions into evidence-first research with explicit information clocks, realistic frictions, portfolio constraints, and honest evaluation.
 
-[Selected Research](#selected-research) ·
-[Publications](#publications-and-research-foundations) ·
-[LinkedIn](https://www.linkedin.com/in/jing-li-b80205294) ·
-[Email](mailto:jingli8881@outlook.com)
+[LinkedIn](https://www.linkedin.com/in/jing-li-b80205294) · [Email](mailto:jingli8881@outlook.com)
 
 Open to quantitative research opportunities.
 
@@ -23,7 +16,7 @@ Open to quantitative research opportunities.
 
 ---
 
-## Selected research
+## Selected case studies
 
 <table>
 <tr>
@@ -31,78 +24,62 @@ Open to quantitative research opportunities.
 
 ### Systematic Equity Alpha
 
-Leakage-aware cross-sectional machine learning with purged walk-forward
-validation, portfolio neutrality, next-open execution, costs, and a separate
-holdout.
+Cross-sectional financial ML with a neutral alpha sleeve, separately governed beta exposure, next-open execution, and frozen evaluation.
 
-**Best for:** equity alpha, financial ML, and portfolio construction.
+**Evidence:** 23.49% development CAGR and 1.24 Sharpe at 5 bps; the short holdout gained 7.71% but was driven by the overlay rather than standalone alpha.
 
-[Open the research →](https://github.com/Jing-Lavinia/systematic-equity-alpha)
+[View case study →](https://github.com/Jing-Lavinia/systematic-equity-alpha)
 
 </td>
 <td width="33%" valign="top">
 
 ### Crypto Relative Value
 
-Causal pair discovery on perpetual futures with a point-in-time universe,
-historical funding, contract lifecycle rules, and exact P&L reconciliation.
+Point-in-time perpetual-futures research with causal pair discovery, funding, contract lifecycle controls, and exact P&L attribution.
 
-**Best for:** statistical arbitrage, market mechanics, and research systems.
+**Evidence:** 1.62 development Sharpe at 7 bps plus funding; the locked terminal window gained 4.12% and exposed material regime dependence.
 
-[Open the research →](https://github.com/Jing-Lavinia/crypto-relative-value-research)
+[View case study →](https://github.com/Jing-Lavinia/crypto-relative-value-research)
 
 </td>
 <td width="33%" valign="top">
 
 ### IMC Prosperity 4
 
-A solo, evidence-backed review of trading decisions, options path risk, and a
-failed strategy that motivated an explicit release gate.
+Solo multi-round trading research covering fast valuation, options path risk, decision attribution, and a failed strategy that motivated a release gate.
 
-**Best for:** trading judgment, risk, and decision-making under pressure.
+**Evidence:** #1,036 of 18,803 teams globally, #17 in China.
 
-[Open the research →](https://github.com/Jing-Lavinia/imc-prosperity-4-research)
+[View case study →](https://github.com/Jing-Lavinia/imc-prosperity-4-research)
 
 </td>
 </tr>
 </table>
 
-## How I approach research
+## Research principles
 
-1. **Define the information clock.** Separate observation, decision, execution,
-   and P&L timestamps.
-2. **Model the portfolio, not only the signal.** Make neutrality, concentration,
-   turnover, funding, and costs explicit.
-3. **Separate development from evaluation.** Freeze configurations before
-   terminal or holdout review.
-4. **Keep adverse evidence visible.** Weak sleeves, failed strategies, and
-   interpretation limits remain part of the result.
+- **Respect the clock:** distinguish observation, decision, execution, and P&L.
+- **Model the portfolio:** make exposure, concentration, turnover, and costs explicit.
+- **Keep adverse evidence:** weak sleeves, failed releases, and limitations stay visible.
 
-## Publications and research foundations
+## Publications and earlier research
 
 - **Carbon Risk and Return Prediction** — corresponding author; graph-structured
-  information and Multi-CNN stock-return prediction.
+  information and Multi-CNN return prediction.
   [DOI](https://doi.org/10.3389/fenvs.2022.1035809)
 - **Gaussian Control with Hierarchical Semantic Graphs in 3D Human Recovery
-  (HUGS)** — coauthor; the public record intentionally makes no module-level or
-  quantitative personal-contribution claim.
-  [arXiv](https://arxiv.org/abs/2405.12477)
-- Earlier work in financial prediction, structured representations, state-space
-  models, and conditional generation is organized with explicit provenance and
+  (HUGS)** — coauthor; no module-level or quantitative personal-contribution
+  claim is made here. [arXiv](https://arxiv.org/abs/2405.12477)
+- Financial prediction, structured representations, sequence models, and
+  biomedical generation are summarized with explicit provenance and
   contribution boundaries.
   [Research foundations →](https://github.com/Jing-Lavinia/research-foundations)
 
-## Research evolution
+## Public disclosure
 
-The final systems are not isolated demos. A separate record shows how early
-equity, crypto, and competition prototypes changed after timing, validation,
-accounting, and model-risk review.
-
-[Review the research evolution →](https://github.com/Jing-Lavinia/research-evolution)
-
-## Scope
+These repositories are technical case studies, not source releases.
+Implementation remains proprietary; research design, failure analysis, and
+trade-offs can be discussed in interviews.
 
 All trading results are simulated research evidence, not live performance,
-investment advice, or a guarantee of future returns. Licensed raw data,
-credentials, private competition evidence, nonpublic biomedical artifacts, and
-third-party source code are not published.
+investment advice, or a guarantee of future returns.
