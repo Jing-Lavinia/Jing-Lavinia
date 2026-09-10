@@ -27,23 +27,26 @@ Open to quantitative research opportunities.
 <tr>
 <td width="100%" valign="top">
 
-### LLM-Driven Alpha Discovery
+### LLM-Driven Full-Stack Alpha Mining
 
-An operational research platform at the frontier of LLM-driven quantitative
-R&D. It moves beyond using language models to suggest isolated factor formulas:
-the system expands economic hypotheses at machine scale, formalizes them into
-executable research objects, and carries every candidate through chronological
-testing, portfolio translation, cost analysis, capacity assessment, and
-versioned evidence.
+An operational system for fully automated, closed-loop alpha mining. It moves
+beyond using language models to suggest isolated factor formulas: the system
+expands and formalizes economic hypotheses into executable factor candidates,
+then carries each through point-in-time testing, portfolio construction,
+trading-cost and capacity analysis, and versioned evidence.
 
-The result is a working implementation of the emerging full-stack quantitative
-research-agent paradigm—a cumulative discovery capability that can search,
-evaluate, and retain alpha knowledge rather than producing one-off ideas.
+Here, **full-stack** means that one research loop connects hypothesis generation,
+factor implementation, evaluation, portfolio construction, and evidence
+management. The result is a working implementation of an emerging quantitative
+research-agent paradigm: a reusable discovery-and-evaluation engine that
+searches, evaluates, and retains traceable evidence across experiments rather
+than producing one-off ideas.
 
-**Selected result:** a live empirical deployment across 257 exchange-traded
-instruments produced **13.83% net CAGR** and **1.55 Sharpe** in walk-forward
-out-of-sample evaluation; the same discovered factor reached **27.80% net
-CAGR** in its higher-risk expression.
+**Selected result:** an end-to-end historical evaluation across 257
+exchange-traded instruments produced **13.83% net CAGR** and **1.55 Sharpe** in
+walk-forward out-of-sample evaluation from 2021-01-01 to 2025-08-21, under a
+modeled one-way trading cost of 5 bp; the same discovered factor reached
+**27.80% net CAGR** in its higher-risk expression under the same cost assumption.
 
 [Explore the research system →](https://github.com/Jing-Lavinia/llm-alpha-discovery)
 
